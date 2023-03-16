@@ -1,7 +1,7 @@
-const io = require("socket.io")(8900,{
-    cors:{
-        origin:"http://127.0.0.1:5173"
-    }
+const io = require("socket.io")(8900, {
+  cors: {
+    origin: "https://chatapp1007.netlify.app/",
+  },
 });
 
 
