@@ -13,7 +13,7 @@ const HomePage = ({user,setUser}) => {
     const [onlineUsers,setOnlineUsers]=useState([])
 
     useEffect(() => {
-            setSocket(io("ws://https://chatapp1007.netlify.app/"));
+            setSocket(io("ws://localhost:8900"))
         }, []);   
 
     useEffect(()=>{
